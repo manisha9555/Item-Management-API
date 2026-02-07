@@ -3,7 +3,7 @@
 A simple Spring Boot REST API for managing items.
 This project demonstrates basic CRUD operations using Java, Spring Boot, and Maven.
 
-🚀 Features
+# Features
 
 Create a new item
 
@@ -15,7 +15,7 @@ JSON request & response
 
 Built with Spring Boot and Java 17
 
-🛠️ Tech Stack
+# Tech Stack
 
 Java 17
 
@@ -27,7 +27,7 @@ Tomcat (embedded)
 
 REST API
 
-📁 Project Structure
+# Project Structure
 src/main/java
 └── com.example.itemapi
     ├── controller
@@ -38,7 +38,7 @@ src/main/java
     │   └── ItemService.java
     └── ItemManagementApiApplication.java
 
-▶️ How to Run the Project
+# How to Run the Project
 Using Eclipse
 
 Import project as Existing Maven Project
@@ -49,8 +49,6 @@ Select Run As → Java Application
 
 Using Command Line
 mvn spring-boot:run
-
-
 Application will start on:
 
 http://localhost:8080
@@ -74,7 +72,7 @@ Example:
 
 GET http://localhost:8080/api/items/1
 
-🧪 Testing with cURL
+# Testing with cURL
 curl --location 'http://localhost:8080/api/items' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -83,5 +81,5 @@ curl --location 'http://localhost:8080/api/items' \
   "price": 75000
 }'
 
-📦 Build JAR
+# Build JAR
 mvn clean package
